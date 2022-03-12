@@ -1,0 +1,137 @@
+ {
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "imdb_title_id": "tt0000009",
+                "ordering": "1",
+                "imdb_name_id": "nm0063086",
+                "category": "actress",
+                "job": "",
+                "characters": [
+                    "Miss Geraldine Holbrook (Miss Jerry)"
+                ]
+            },
+            {
+                "imdb_title_id": "tt0000009",
+                "ordering": "2",
+                "imdb_name_id": "nm0183823",
+                "category": "actor",
+                "job": "",
+                "characters": [
+                    "Mr. Hamilton"
+                ]
+            }
+        ]
+    ],
+    "additionalItems": false,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "imdb_title_id": "tt0000009",
+                        "ordering": "1",
+                        "imdb_name_id": "nm0063086",
+                        "category": "actress",
+                        "job": "",
+                        "characters": [
+                            "Miss Geraldine Holbrook (Miss Jerry)"
+                        ]
+                    }
+                ],
+                "required": [
+                    "imdb_title_id",
+                    "ordering",
+                    "imdb_name_id",
+                    "category",
+                    "job",
+                    "characters"
+                ],
+                "properties": {
+                    "imdb_title_id": {
+                        "$id": "#/items/anyOf/0/properties/imdb_title_id",
+                        "type": "string",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "tt0000009"
+                        ]
+                    },
+                    "ordering": {
+                        "$id": "#/items/anyOf/0/properties/ordering",
+                        "type": "string",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "1"
+                        ]
+                    },
+                    "imdb_name_id": {
+                        "$id": "#/items/anyOf/0/properties/imdb_name_id",
+                        "type": "string",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "nm0063086"
+                        ]
+                    },
+                    "category": {
+                        "$id": "#/items/anyOf/0/properties/category",
+                        "type": "string",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "actress"
+                        ]
+                    },
+                    "job": {
+                        "$id": "#/items/anyOf/0/properties/job",
+                        "type": "string",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "characters": {
+                        "$id": "#/items/anyOf/0/properties/characters",
+                        "type": "array",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                "Miss Geraldine Holbrook (Miss Jerry)"
+                            ]
+                        ],
+                        "additionalItems": false,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/characters/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/characters/items/anyOf/0",
+                                    "type": "string",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": "",
+                                    "examples": [
+                                        "Miss Geraldine Holbrook (Miss Jerry)"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
+        ]
+    }
+}
