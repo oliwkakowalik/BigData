@@ -1,0 +1,11 @@
+[debug] > Exec(spark-submit --master local[4] target/scala-2.12/lab7_2.12-0.1.jar, None, None)
+[error] Expected ID character
+[error] Not a valid command: spark-submit
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: spark-submit
+[error] spark-submit --master local[4] target/scala-2.12/lab7_2.12-0.1.jar
+[error]             ^
+[debug] > Exec(idea-shell, None, None)

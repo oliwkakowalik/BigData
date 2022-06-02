@@ -1,0 +1,8 @@
+[debug] > Exec(ean, None, None)
+[error] Not a valid command: ean (similar: eval, set, client)
+[error] Not a valid project ID: ean
+[error] Expected ':'
+[error] Not a valid key: ean (similar: clean, cleanIvy, run)
+[error] ean
+[error]    ^
+[debug] > Exec(idea-shell, None, None)
