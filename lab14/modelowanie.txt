@@ -1,0 +1,19 @@
+Modelowanie danych- proces tworzenia schematów i podsumowania informacji zebranych w hurtowni danych.
+
+Cardinality- określa częstotliwość występowania danych. 
+
+High cardinality- wartości w kolumnie danych są bardzo rzadkie
+
+Normal cardinality- wartości w kolumnie danych są nieco rzadkie, ale nigdy niepowtarzalne
+
+Low cardinality- wartości w kolumnie danych są bardzo typowe
+
+Normalizacja- uporządkowanie danych, usuwając nadmiarowości i zwiększanie integralności. Przyśpiesza cały proces analizy. 
+Jest to wieloetapowy proces, przekształca dane do formy tabelarycznej i usuwa zduplikowane rekordy z tabel relacyjnych.
+
+
+Denormalizacja- wprowadzenie kontrolowanej nadmierności do bazy w celu przyspieszenia wykonywania na niej operacji; 
+dzięki denormalizacji bazy unika się kosztownych operacji połączeń tabel.
+
+Datamart - Tematyczna Hurtownia Danych; jest używana z reguły przez jeden wydział i dane w niej zawarte dotyczą jednego konkretnego tematu biznesowego. 
+Tworzone w celu zapewnienia wsparcia procesu podejmowania decyzji osobom odpowiedzialnym za konkretny obszar biznesowy.

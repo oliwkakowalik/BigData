@@ -1,0 +1,3 @@
+Online Analytical Processing (OLAP) struktur danych, która pozwala pokonać ograniczenia relacyjnych baz danych, umożliwiając szybką analizę danych. 
+Pozwala na analizę danych z wielu baz w tym samym czasie i ekstrakcję interesujących nas części. Bazy danych OLAP są podzielone na kostki, 
+przez co przypomina wielowymiarowy arkusz kalkulacyjny. Znacząco ułatwia tworzenie raportów.
